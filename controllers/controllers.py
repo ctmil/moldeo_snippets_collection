@@ -15,3 +15,16 @@ class MoldeoSnippetsCollection(http.Controller):
             }
             p.append(news)
         return p
+
+    @http.route(['/get_customers'], type='json', auth="public", website=True)
+    def get_customers(self, limit=12):
+        customers = http.request.env['res.partner'].sudo().search([('website_published','=',True),('customer','=',True)], limit=12)
+        c = []
+
+        for customer in customers:
+            news = {
+                "name": customer.name,
+                "id": customer.id
+            }
+            c.append(news)
+        return c
