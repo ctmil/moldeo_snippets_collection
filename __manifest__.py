@@ -19,6 +19,8 @@
 
     'data': [
         'views/snippets.xml',
+	'views/snippet_product.xml',
+	'views/snippet_customer.xml',
     ],
     'demo': [],
 }
