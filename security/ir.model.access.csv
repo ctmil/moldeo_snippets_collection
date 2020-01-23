@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_addons/moldeo_snippets_collection_addons/moldeo_snippets_collection,addons/moldeo_snippets_collection.addons/moldeo_snippets_collection,model_addons/moldeo_snippets_collection_addons/moldeo_snippets_collection,,1,0,0,0
