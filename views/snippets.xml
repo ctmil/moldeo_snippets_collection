@@ -4,7 +4,7 @@
         <xpath expr="." position="inside">
           <script type="text/javascript" src="/moldeo_snippets_collection/static/src/js/products.js"></script>
           <script type="text/javascript" src="/moldeo_snippets_collection/static/src/js/customers.js"></script>
-          <link rel="stylesheet" href="/moldeo_snippets_collection/static/src/css/snippets.css" />
+          <link rel="stylesheet" href="/moldeo_snippets_collection/static/src/css/snippets.scss" />
         </xpath>
     	</template>
   </data>
