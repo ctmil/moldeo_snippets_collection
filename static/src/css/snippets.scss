@@ -31,7 +31,13 @@
 .product-col:hover {
     box-shadow: 0 0 10px #666;
     transition: all 500ms;
+    text-decoration:none;
 }
 .product-col img {
     height:120px;
+}
+.product-col h6 {
+    margin: 0 -16px;
+    background: $primary;
+    color: $white !important;
 }
